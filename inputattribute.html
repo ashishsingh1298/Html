@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Tab Index
+	</title>
+	<body>
+		<form autocomplete="off" action="http://localhost8000">
+			name:-<input type="text" tabindex="1" name="name" autofocus="autofocus" pattern="^[A-Za-z ]*$"><br>
+			phone:-<input type="text" tabindex="3">
+			mobile:-<input type="text" tabindex="2" name="mobile" required="required" pattern="[789][0-9]{9}"><br>
+			Attach file<input type="file" multiple="multiple">
+			<input type="checkbox" checked="">if agree<br>
+			AGE<input type="number" min="18" max="60" step ="5"><br>
+			Search<input type="search" list="list1"><br>
+			<datalist id="list1">
+				<option>java</option>
+				<option>php</option>
+				<option>c++</option>
+				<option>html, css, bootstrap</option>
+			</datalist>
+			
+			Submit<input type="submit">
+			
+		</form>
+	</body>
+</head>
